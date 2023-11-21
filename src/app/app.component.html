@@ -1,4 +1,11 @@
 <app-match
-  class="d-flex flex-row justify-content-evenly align-items-center"
+  *ngIf="!isStart"
+  class="d-flex flex-row justify-content-evenly align-items-center containt"
+  (makeStart)="makeStart()"
   style="height: 100vh"
 ></app-match>
+<app-detail
+  *ngIf="isStart"
+  class="d-flex flex-row justify-content-evenly align-items-center containt"
+  style="height: 100vh"
+></app-detail>

@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+.containt {
+  background-color: rgb(54, 54, 54);
+}
+
+.card {
+  background-color: rgb(30, 30, 30) !important;
+}
+
+* {
+  color: white;
+}
+
+.form-control,
+.form-select,
+.list-group-item {
+  background-color: rgb(54, 54, 54) !important;
+  color: white !important;
+  border: none !important;
+}
+
+::placeholder {
+  color: white;
+}
