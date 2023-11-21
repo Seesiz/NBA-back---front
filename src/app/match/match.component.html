@@ -1,0 +1,23 @@
+<div class="card col-6 p-3">
+  <header class="p-1">
+    <span style="font-size: 20px">Creation de match:</span>
+  </header>
+  <section class="p-2 d-flex flex-column gap-2">
+    <input type="date" name="" id="" class="form-control" />
+    <select name="" id="" class="form-select"></select>
+    <ul class="list-group" style="height: 7rem; overflow-y: auto">
+      <li class="list-group-item" *ngFor="let item of [0, 1, 2, 3, 4, 5]">
+        <input type="checkbox" name="" id="" class="form-check-input" /> Joueur
+        {{ item }}
+      </li>
+    </ul>
+    <select name="" id="" class="form-select"></select>
+    <ul class="list-group" style="height: 7rem; overflow-y: auto">
+      <li class="list-group-item" *ngFor="let item of [0, 1, 2, 3, 4, 5]">
+        <input type="checkbox" name="" id="" class="form-check-input" /> Joueur
+        {{ item }}
+      </li>
+    </ul>
+    <button type="button" class="btn btn-primary">Valider</button>
+  </section>
+</div>
